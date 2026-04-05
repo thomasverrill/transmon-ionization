@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "transmon_ionization"
+version = "0.1.0"
+description = "Group project repository for transmon ionization simulations and analysis."
+authors = ["Thomas Verrill", "Trace Zhang", "Pranav Mathur"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "3.12.10"
+qutip = "*"
+scqubits = "*"
+numpy = "*"
+matplotlib = "*"
+
+[build-system]
+requires = ["poetry-core>=1.8.0"]
+build-backend = "poetry.core.masonry.api"
